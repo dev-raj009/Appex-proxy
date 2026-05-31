@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: appx-proxy-server
+    env: node
+    region: singapore          # Asia ke liye best latency
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+    autoDeploy: true
