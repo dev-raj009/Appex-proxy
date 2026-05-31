@@ -14,7 +14,7 @@
 
 // ★ APNA RENDER URL YAHAN DAALO ★
 // Example: https://appx-proxy-server.onrender.com
-define('PROXY_SERVER', 'https://YOUR-APP-NAME.onrender.com');
+define('PROXY_SERVER', 'https://Raj-apppex.onrender.com');
 
 // Default decryption key (AppX standard)
 define('DEFAULT_KEY', 'appx-pdf-keyset');
